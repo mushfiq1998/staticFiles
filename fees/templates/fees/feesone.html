@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="eng">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <title> Django fees </title>
+    </head>
+<body>
+<h1>Welcome to {{cname}} course, course fees: {{charge}}</h1>
+<img src="{% static 'images/redProfile.jpg' %}" alt="Django" />
+<hr />
+<form action="">
+    <input type="button" value="Click me" onclick="display()">
+</form>
+<script src="{% static 'js/all.js' %}"></script>
+</body>
+</html>
